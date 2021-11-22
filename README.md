@@ -1,19 +1,23 @@
-# Getting Started with Create React App
+# E-commerce Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build using the MERN stack. MongoDB, ExpressJS, ReactJS and NodeJS.
+
+![This is an image](./src/images/e-commerce-app.jpeg)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm install`
 
-Runs the app in the development mode.\
+Install project dependencies.
 
-### `yarn test`
+Runs the app in the development mode.
 
-Launches the test runner in the interactive watch mode.\
+### `npm run test`
 
-### `yarn build`
+Launches the test runner in the interactive watch mode.
 
-Builds the app for production to the `build` folder.\
+### `npm run build`
+
+Builds the app for production to the `build` folder.
