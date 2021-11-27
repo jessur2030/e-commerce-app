@@ -3,6 +3,8 @@ import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
 
+import { mobile } from "../responsive";
+
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -10,6 +12,7 @@ const Container = styled.div`
   /* background-color: coral; */
   position: relative;
   overflow: hidden;
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
@@ -50,7 +53,8 @@ const ImageContainer = styled.div`
   flex: 1;
 `;
 const Image = styled.img`
-  height: 80%;
+  /* height: 80%; */
+  height: 100%;
 `;
 const InfoContainer = styled.div`
   flex: 1;
@@ -70,6 +74,8 @@ const Button = styled.button`
   padding: 0.625rem; //10px
   font-size: 1.25rem; //20px
   background-color: transparent;
+  border: 2px solid #333;
+
   cursor: pointer;
   font-weight: 600;
   &:hover {

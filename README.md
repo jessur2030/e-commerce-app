@@ -2,7 +2,9 @@
 
 This project was build using the MERN stack. MongoDB, ExpressJS, ReactJS and NodeJS.
 
-![This is an image](./src/images/e-commerce-app.jpeg)
+### [Live Site](/)
+
+![eCommerce](https://ibb.co/pbjMjr2)
 
 ## Available Scripts
 
