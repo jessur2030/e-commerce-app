@@ -4,7 +4,7 @@ This project was build using the MERN stack. MongoDB, ExpressJS, ReactJS and Nod
 
 ### [Live Site](/)
 
-![eCommerce](https://ibb.co/pbjMjr2)
+![eCommerce](https://i.ibb.co/hZvTkk2/Web-capture-26-11-2021-215520-localhost.jpg)
 
 ## Available Scripts
 
